@@ -1,0 +1,20 @@
+*.aux
+*.log
+*.out
+*.pyc
+__pycache__/
+.env
+.venv/
+.vscode/
+.DS_Store
+*.zip
+
+# Internal editorial working records are kept outside the public repository.
+docs/decision_log.md
+docs/design_adequacy_ledger.md
+docs/evidence_ledger.md
+docs/IEEEACCESS_ROUTE_CARD.md
+docs/journal_profile.md
+docs/literature_gap_ledger.md
+docs/manuscript_current.md
+docs/review_memory.md

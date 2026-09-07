@@ -1,0 +1,7 @@
+gate,threshold,observed,pass
+asset_traceability,100% included assets,100% frozen corridor inputs traceable,True
+robust_vs_random,robust base worst DCR at least 5 pp below random median and below random Q90,median gain=7.621 pp; Q90 gain=7.621 pp,True
+evidence_gap_detectability,at least one evidence ablation causes >=1 pp full-evidence regret,max regret=22.105 pp,True
+n1_robustness,robust N-1 worst DCR <= deterministic N-1 worst DCR,robust=77.895%; deterministic=77.895%,True
+capacity_monotonicity,increasing capacity multiplier does not increase worst DCR,"[77.858, 55.7161, 33.5741]",True
+external_corridor_face_validity,at least two of four external top countries selected in 2030 and 2040,"[{'year': 2030, 'top4_overlap': 2}, {'year': 2040, 'top4_overlap': 2}]",True

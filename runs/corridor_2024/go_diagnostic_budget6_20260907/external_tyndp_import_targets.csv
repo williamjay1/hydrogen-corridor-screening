@@ -1,0 +1,19 @@
+year,destination_country,technology,fuel,max_energy_gwh
+2030,Belgium,Lh2,Ammonia,20000.0
+2030,France,Lh2,Ammonia,5000.0
+2030,Germany,Lh2,Ammonia,5000.0
+2030,Germany,Pipeline,Pure Hydrogen,45300.0
+2030,Italy,Pipeline,Pure Hydrogen,36090.0
+2030,Netherlands,Lh2,Ammonia,30000.0
+2030,Slovakia,Pipeline,Pure Hydrogen,26280.0
+2040,Belgium,Lh2,Ammonia,250830.0
+2040,Belgium,Pipeline,Pure Hydrogen,219000.0
+2040,France,Lh2,Ammonia,214770.0
+2040,Germany,Lh2,Ammonia,214770.0
+2040,Germany,Pipeline,Pure Hydrogen,453000.0
+2040,Hungary,Pipeline,Pure Hydrogen,165000.0
+2040,Italy,Pipeline,Pure Hydrogen,777000.0
+2040,Netherlands,Lh2,Ammonia,279050.0
+2040,Romania,Pipeline,Pure Hydrogen,189000.0
+2040,Slovakia,Pipeline,Pure Hydrogen,342000.0
+2040,Spain,Pipeline,Pure Hydrogen,392000.0

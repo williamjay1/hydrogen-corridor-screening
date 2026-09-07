@@ -1,0 +1,10 @@
+candidate_key,terminal_node,backbone_node,country,selected,scenario_count,mean_flow_gwh,max_flow_gwh,mean_utilisation_pct,max_utilisation_pct
+LH2_Tk_BE|BEh2,LH2_Tk_BE,BEh2,Belgium,True,12,38680.35657108006,70664.0,89.42333659441874,100.0
+LH2_Tk_DEbp|DEh2bp,LH2_Tk_DEbp,DEh2bp,Germany,True,12,2372.5,4745.0,50.0,100.0
+LH2_Tk_DE|DEh2,LH2_Tk_DE,DEh2,Germany,True,12,15676.75,19965.5,100.0,100.0
+LH2_Tk_FRn|FRh2N,LH2_Tk_FRn,FRh2N,France,True,6,17520.0,17520.0,100.0,100.0
+LH2_Tk_NL|NLh2,LH2_Tk_NL,NLh2,Netherlands,True,12,56779.9805487284,81249.0,99.48858515025218,100.0
+LH2_Tk_PLN|PLh2N,LH2_Tk_PLN,PLh2N,Poland,True,6,6460.5,6460.5,100.0,100.0
+LH2_Tk_FRSW|FRh2SW,LH2_Tk_FRSW,FRh2SW,France,False,0,0.0,0.0,0.0,0.0
+LH2_Tk_FRW|FRh2,LH2_Tk_FRW,FRh2,France,False,0,0.0,0.0,0.0,0.0
+LH2_Tk_ITa|IB-ITh2,LH2_Tk_ITa,IB-ITh2,Italy,False,0,0.0,0.0,0.0,0.0

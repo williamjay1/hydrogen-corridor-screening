@@ -1,0 +1,5 @@
+ablation,selection,selected_count,worst_dcr_full_evidence_pct,mean_dcr_full_evidence_pct,total_unmet_full_evidence_gwh,jaccard_to_full_robust,regret_vs_full_robust_pp
+full_evidence,LH2_Tk_BE|BEh2;LH2_Tk_DE|DEh2;LH2_Tk_FRn|FRh2N;LH2_Tk_NL|NLh2,4,77.89467764213327,35.446232356786226,3096011.11332929,1.0,0.0
+carrier_evidence_removed,LH2_Tk_BE|BEh2;LH2_Tk_DE|DEh2;LH2_Tk_FRn|FRh2N;LH2_Tk_NL|NLh2,4,77.89467764213327,35.446232356786226,3096011.11332929,1.0,0.0
+capacity_evidence_removed,LH2_Tk_BE|BEh2;LH2_Tk_DEbp|DEh2bp;LH2_Tk_FRSW|FRh2SW;LH2_Tk_PLN|PLh2N,4,100.0,73.46942223033808,6591487.869907545,0.14285714285714285,22.105322357866726
+demand_uncertainty_omitted,LH2_Tk_BE|BEh2;LH2_Tk_DE|DEh2;LH2_Tk_FRn|FRh2N;LH2_Tk_NL|NLh2,4,77.89467764213327,35.446232356786226,3096011.11332929,1.0,0.0

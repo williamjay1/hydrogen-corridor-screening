@@ -1,0 +1,46 @@
+{
+  "data_product": "TYNDP 2024 final public corridor graph",
+  "raw_source_mutation": "none; all E: files read only",
+  "horizons": [
+    2030,
+    2040
+  ],
+  "levels": [
+    "PCI/PMI",
+    "Advanced"
+  ],
+  "network_nodes": 69,
+  "network_edges": 356,
+  "terminal_backbone_edges": 22,
+  "carrier_project_evidence": 20,
+  "carrier_country_pools": 15,
+  "terminal_carrier_interfaces": 22,
+  "industrial_facilities": 55,
+  "facility_scenario_rows": 330,
+  "igi_benchmark_rows": 280,
+  "excluded_records": 504,
+  "positive_terminal_capacity_sum_across_levels_and_years_gwh_per_day": 1487.8,
+  "reachable_facility_countries": [
+    "Austria",
+    "Belgium",
+    "Czechia",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Hungary",
+    "Italy",
+    "Latvia",
+    "Lithuania",
+    "Netherlands",
+    "Poland",
+    "Portugal",
+    "Romania",
+    "Slovakia",
+    "Spain",
+    "Sweden"
+  ],
+  "facility_sample_rule": "Facilities require a directed path from an explicit carrier-evidenced terminal in at least one frozen year/level graph; unsupported connections are excluded and logged.",
+  "important_boundary": "Direct ammonia receives no eligible demand arc because the EHO data describe hydrogen feedstock demand, not verified direct-ammonia consumption. Carrier classes with a conflicting or unsupported source field are excluded rather than repaired."
+}

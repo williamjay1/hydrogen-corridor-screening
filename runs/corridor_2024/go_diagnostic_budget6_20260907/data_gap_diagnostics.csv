@@ -1,0 +1,5 @@
+ablation,selection,selected_count,worst_dcr_full_evidence_pct,mean_dcr_full_evidence_pct,total_unmet_full_evidence_gwh,jaccard_to_full_robust,regret_vs_full_robust_pp
+full_evidence,LH2_Tk_BE|BEh2;LH2_Tk_DEbp|DEh2bp;LH2_Tk_DE|DEh2;LH2_Tk_FRn|FRh2N;LH2_Tk_NL|NLh2;LH2_Tk_PLN|PLh2N,6,77.89467764213327,28.49113786314989,3463782.110505288,1.0,0.0
+carrier_evidence_removed,LH2_Tk_BE|BEh2;LH2_Tk_DEbp|DEh2bp;LH2_Tk_DE|DEh2;LH2_Tk_FRn|FRh2N;LH2_Tk_NL|NLh2;LH2_Tk_PLN|PLh2N,6,77.89467764213327,28.491137863149884,3463782.1105052875,1.0,0.0
+capacity_evidence_removed,LH2_Tk_BE|BEh2;LH2_Tk_DEbp|DEh2bp;LH2_Tk_FRSW|FRh2SW;LH2_Tk_FRW|FRh2;LH2_Tk_FRn|FRh2N;LH2_Tk_PLN|PLh2N,6,100.0,67.34301234836946,8348929.417870563,0.5,22.105322357866726
+demand_uncertainty_omitted,LH2_Tk_BE|BEh2;LH2_Tk_DEbp|DEh2bp;LH2_Tk_DE|DEh2;LH2_Tk_FRn|FRh2N;LH2_Tk_NL|NLh2;LH2_Tk_PLN|PLh2N,6,77.89467764213327,28.49113786314989,3463782.110505288,1.0,0.0

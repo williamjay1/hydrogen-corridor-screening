@@ -1,0 +1,6 @@
+ablation,worst_dcr_pct,mean_dcr_pct,total_unmet_gwh,note
+port_country_star_lp,52.54072779962976,17.087027273328818,285441.7285438074,Topology-free capacity upper bound; not a physical route model.
+project_graph_lp_generic,55.71607797258301,18.495354840366026,309166.72854380734,Explicit project graph without carrier compatibility.
+project_graph_lp_carrier_compatible,55.71607797258301,18.495354840366026,309166.7285438074,Explicit project graph with carrier compatibility and shared pools.
+deterministic_budget_milp,55.716077972582994,21.51254993663125,358030.1884554237,Four-interface central-scenario selection evaluated over the planning matrix.
+robust_budget_milp,55.716077972582994,21.51254993663125,358030.1884554237,Four-interface multi-scenario worst-case selection evaluated over the planning matrix.

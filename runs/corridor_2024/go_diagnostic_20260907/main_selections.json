@@ -1,0 +1,28 @@
+{
+  "budget": 4,
+  "candidate_groups": [
+    "LH2_Tk_BE|BEh2",
+    "LH2_Tk_DEbp|DEh2bp",
+    "LH2_Tk_DE|DEh2",
+    "LH2_Tk_FRSW|FRh2SW",
+    "LH2_Tk_FRW|FRh2",
+    "LH2_Tk_FRn|FRh2N",
+    "LH2_Tk_ITa|IB-ITh2",
+    "LH2_Tk_NL|NLh2",
+    "LH2_Tk_PLN|PLh2N"
+  ],
+  "robust_n1": [
+    "LH2_Tk_BE|BEh2",
+    "LH2_Tk_DE|DEh2",
+    "LH2_Tk_FRn|FRh2N",
+    "LH2_Tk_NL|NLh2"
+  ],
+  "deterministic_central": [
+    "LH2_Tk_BE|BEh2",
+    "LH2_Tk_DE|DEh2",
+    "LH2_Tk_FRn|FRh2N",
+    "LH2_Tk_NL|NLh2"
+  ],
+  "robust_stage1_worst_dcr": 0.55716077972583,
+  "n1_evaluation_is_held_out": true
+}

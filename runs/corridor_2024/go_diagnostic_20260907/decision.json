@@ -1,0 +1,69 @@
+{
+  "decision": "GO",
+  "interpretation": "GO means the redesigned diagnostic contribution passes its preregistered engineering gates; it does not claim operational availability, investment optimality, or IGI replication.",
+  "budget": 4,
+  "robust_selection": [
+    "LH2_Tk_BE|BEh2",
+    "LH2_Tk_DE|DEh2",
+    "LH2_Tk_FRn|FRh2N",
+    "LH2_Tk_NL|NLh2"
+  ],
+  "deterministic_selection": [
+    "LH2_Tk_BE|BEh2",
+    "LH2_Tk_DE|DEh2",
+    "LH2_Tk_FRn|FRh2N",
+    "LH2_Tk_NL|NLh2"
+  ],
+  "gate_results": [
+    {
+      "gate": "asset_traceability",
+      "threshold": "100% included assets",
+      "observed": "100% frozen corridor inputs traceable",
+      "pass": true
+    },
+    {
+      "gate": "robust_vs_random",
+      "threshold": "robust base worst DCR at least 5 pp below random median and below random Q90",
+      "observed": "median gain=22.179 pp; Q90 gain=44.284 pp",
+      "pass": true
+    },
+    {
+      "gate": "evidence_gap_detectability",
+      "threshold": "at least one evidence ablation causes >=1 pp full-evidence regret",
+      "observed": "max regret=22.105 pp",
+      "pass": true
+    },
+    {
+      "gate": "n1_robustness",
+      "threshold": "robust N-1 worst DCR <= deterministic N-1 worst DCR",
+      "observed": "robust=77.895%; deterministic=77.895%",
+      "pass": true
+    },
+    {
+      "gate": "capacity_monotonicity",
+      "threshold": "increasing capacity multiplier does not increase worst DCR",
+      "observed": [
+        77.858,
+        55.7161,
+        33.5741
+      ],
+      "pass": true
+    },
+    {
+      "gate": "external_corridor_face_validity",
+      "threshold": "at least two of four external top countries selected in 2030 and 2040",
+      "observed": [
+        {
+          "year": 2030,
+          "top4_overlap": 2
+        },
+        {
+          "year": 2040,
+          "top4_overlap": 2
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "legacy_igi_alignment": "retained as a construct-boundary comparison only; not a pass/fail target for the redesigned question"
+}

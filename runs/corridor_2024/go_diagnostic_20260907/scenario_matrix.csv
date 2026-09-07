@@ -1,0 +1,13 @@
+scenario_id,year,infrastructure_level,demand_level,role
+S2030_PCIPMI_low,2030,PCI/PMI,low,declared planning scenario
+S2030_PCIPMI_medium,2030,PCI/PMI,medium,declared planning scenario
+S2030_PCIPMI_high,2030,PCI/PMI,high,declared planning scenario
+S2030_Advanced_low,2030,Advanced,low,declared planning scenario
+S2030_Advanced_medium,2030,Advanced,medium,declared planning scenario
+S2030_Advanced_high,2030,Advanced,high,declared planning scenario
+S2040_PCIPMI_low,2040,PCI/PMI,low,declared planning scenario
+S2040_PCIPMI_medium,2040,PCI/PMI,medium,declared planning scenario
+S2040_PCIPMI_high,2040,PCI/PMI,high,declared planning scenario
+S2040_Advanced_low,2040,Advanced,low,declared planning scenario
+S2040_Advanced_medium,2040,Advanced,medium,declared planning scenario
+S2040_Advanced_high,2040,Advanced,high,declared planning scenario

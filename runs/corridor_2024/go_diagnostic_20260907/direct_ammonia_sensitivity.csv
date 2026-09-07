@@ -1,0 +1,4 @@
+direct_ammonia_share_of_eho_ammonia_end_use,worst_dcr_pct,mean_dcr_pct,total_unmet_gwh,interpretation
+0.0,55.716077972582994,21.51254993663125,358030.1884554237,Counterfactual service-mode sensitivity; EHO ammonia records are hydrogen feedstock demand and are not observed direct-ammonia contracts.
+0.5,55.716077972582994,21.512549936631245,358030.18845542363,Counterfactual service-mode sensitivity; EHO ammonia records are hydrogen feedstock demand and are not observed direct-ammonia contracts.
+1.0,55.716077972582994,21.512549936631245,358030.18845542375,Counterfactual service-mode sensitivity; EHO ammonia records are hydrogen feedstock demand and are not observed direct-ammonia contracts.

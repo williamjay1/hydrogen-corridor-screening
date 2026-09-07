@@ -1,5 +1,7 @@
 # Public-data hydrogen corridor screening
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22647942.svg)](https://doi.org/10.5281/zenodo.22647942)
+
 This directory is the independent IEEE Access redesign package for the manuscript *A Decision Support Tool for Prioritizing Hydrogen Import Interface Verification with Public European Infrastructure Data*.
 
 ## Scope

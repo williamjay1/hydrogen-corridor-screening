@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the archived version identified by its DOI."
-title: "Public-data hydrogen corridor screening"
+message: "Cite the published v2.0.0 archive DOI once assigned; v1 DOI does not reproduce v2 results."
+title: "Capacity and Connectivity Bounds for European Hydrogen Import Corridors: Reproducibility Code and Derived Data"
 type: software
-version: "1.0.1"
+version: "2.0.0"
 date-released: 2026-09-08
 authors:
   - family-names: Zhang
@@ -10,10 +10,9 @@ authors:
     affiliation: Shanghai International Studies University
     orcid: "https://orcid.org/0009-0004-8821-4018"
 repository-code: "https://github.com/williamjay1/hydrogen-corridor-screening"
-doi: "10.5281/zenodo.22647942"
 keywords:
   - hydrogen infrastructure
-  - import terminals
-  - mixed-integer linear programming
-  - public data
+  - directed network flows
+  - capacity bounds
+  - endpoint uncertainty
   - reproducibility

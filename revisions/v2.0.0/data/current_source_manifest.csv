@@ -1,0 +1,9 @@
+source_id,url,status,error,retrieved,archive,sha256,bytes
+Uniper2025,https://www.uniper.energy/sites/default/files/2026-03/uniper_annual_report-2025.pdf,retrieval_failed,HTTP Error 403: Forbidden,,,,
+HamburgPermit2026,https://www.hafen-hamburg.de/en/press/news/permit-granted-mb-energy-can-build-ammonia-import-terminal-in-hamburg/,retrieved,,2026-09-08,HamburgPermit2026.html,e95fa5f5b42790515fccbbc994e37beaa986117f98ab308bd3dfdaa3e701d580,52353.0
+RotterdamNetwork2026,https://www.hynetwork.nl/en/region/projects/rotterdam,retrieved,,2026-09-08,RotterdamNetwork2026.html,abbfc3fac147301c8a092f6fee4791a435e88e9c75d9916ed2a0fcee65c5772a,107241.0
+AntwerpTerminal2026,https://www.fluxys.com/en/projects/ammonia-antwerp-terminal,retrieved,,2026-09-08,AntwerpTerminal2026.html,6e94da34411fe7032f1e8230415d8f8ca66de090a51d36d3408b8e20ee4f4def,63243.0
+AmsterdamLOHC2026,https://www.evos.eu/evos-and-north-atlantic-take-next-step-in-developing-hydrogen-import-route-to-europe/,retrieval_failed,<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>,,,,
+WilhelmshavenScaleup2025,https://www.uniper.energy/news/download/63c09ca2-e556-4075-b0b6-2725b3f173c6/251126_pressreleaseuniperthyssenkruppuhde_licenseframeworkagreement_en.pdf,retrieval_failed,HTTP Error 403: Forbidden,,,,
+DunkerquePress2026,https://www.dunkerque-port.fr/wp-content/uploads/2026/01/Dossier-de-presse-2026.pdf,retrieved,,2026-09-08,DunkerquePress2026.pdf,77a8de64302972216fdbf7de544e27a96b06a72529cd47cb915cbdfb8b07fb9d,13812524.0
+BordeauxStrategy2026,https://www.bordeaux-port.fr/wp-content/uploads/PS26-30_rapport.pdf,retrieved,,2026-09-08,BordeauxStrategy2026.pdf,5105897687cc53c0b238dae43c04e7840565af0fe743c6fd2c47a1211ac07be8,12473795.0

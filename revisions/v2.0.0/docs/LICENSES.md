@@ -1,0 +1,2 @@
+# Rights and attribution
+The authors' release documentation, code and derived research outputs are made available under Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Cite the archive version and retain the source attribution. This grant does not relicense original ENTSOG, EHO, port/operator material, IEEE template/font assets or other third-party material. Original workbooks and full source pages are excluded from this release directory. Earlier root-level materials retain their existing terms.

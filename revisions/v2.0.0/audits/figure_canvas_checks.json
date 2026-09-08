@@ -1,0 +1,83 @@
+[
+  {
+    "figure": "figure01",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      5.9
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure02",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      4.7
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure03",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      3.8
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure04",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      5.4
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure05",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      4.4
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure06",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      3.7
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure07",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      3.8
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure08",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      4.3
+    ],
+    "minimum_declared_font_pt": 10
+  },
+  {
+    "figure": "figure09",
+    "outside_text": [],
+    "figure_inches": [
+      7.1,
+      3.8
+    ],
+    "minimum_declared_font_pt": 10
+  }
+]

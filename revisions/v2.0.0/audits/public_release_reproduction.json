@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "isolated_run": true,
+  "original_raw_required": false,
+  "network_required": false,
+  "compared_result_tables": [
+    "all_subset_census.csv",
+    "budget_frontier.csv",
+    "capacity_sensitivity.csv",
+    "central_optimal_portfolios.csv",
+    "country_sink_assignment_bounds.csv",
+    "cross_vintage_stress.csv",
+    "flows.csv",
+    "joint_assignment_bounds.csv",
+    "mapping_bounds.csv",
+    "mapping_portfolio_census.csv",
+    "minimum_cuts.csv",
+    "optimistic_optimal_portfolios.csv",
+    "outage_mapping_results.csv",
+    "outage_results.csv",
+    "scenario_results.csv",
+    "strong_baselines.csv"
+  ],
+  "steps": 5
+}

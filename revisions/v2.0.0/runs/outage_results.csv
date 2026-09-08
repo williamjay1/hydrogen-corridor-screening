@@ -1,0 +1,9 @@
+method,failed,worst_unmet_pct
+exact_minimax,LH2_Tk_BE,38.805565858722005
+exact_minimax,LH2_Tk_DE,24.71078225732929
+exact_minimax,LH2_Tk_FRSW,14.473418510995506
+exact_minimax,LH2_Tk_NL,54.60576811651099
+mapping_robust,LH2_Tk_BE,32.284847466618615
+mapping_robust,LH2_Tk_DE,18.19006386522588
+mapping_robust,LH2_Tk_DEbp,14.473418510995506
+mapping_robust,LH2_Tk_NL,48.085049724407604

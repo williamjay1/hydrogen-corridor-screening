@@ -1,0 +1,9 @@
+{
+  "optimistic_four_optima": 6,
+  "central_four_optima": 77,
+  "central_optimal_portfolios_worst_unmet_min": 14.473418510995506,
+  "central_optimal_portfolios_worst_unmet_max": 70.25549225755914,
+  "minimal_optimistic_budget": 3,
+  "checks_passed": 80,
+  "all_checks_passed": true
+}

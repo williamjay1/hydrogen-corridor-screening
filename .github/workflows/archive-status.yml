@@ -1,0 +1,53 @@
+name: Verify published archive DOI
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Read the public Zenodo record for release v2.0.0
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, urllib.request, urllib.parse, time
+          expected = '2.0.0'
+          repo = 'https://github.com/williamjay1/hydrogen-corridor-screening'
+          def get(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'hydrogen-corridor-archive-verifier/2.0.0'})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return json.load(r)
+          def verify(record):
+              metadata = record.get('metadata', {})
+              version = str(metadata.get('version', '')).lstrip('v')
+              identifiers = [str(x.get('identifier','')) for x in metadata.get('related_identifiers', [])]
+              doi = record.get('doi') or metadata.get('doi')
+              if version != expected or not doi or not any(repo in x for x in identifiers):
+                  return False
+              print('VERIFIED_ARCHIVE=' + json.dumps({
+                  'id':record['id'], 'doi':doi, 'version':version,
+                  'conceptdoi':record.get('conceptdoi'), 'title':metadata.get('title'),
+                  'creators':metadata.get('creators'), 'related_identifiers':identifiers,
+                  'record_url':record.get('links',{}).get('html'),
+                  'files':[{'key':f.get('key'),'checksum':f.get('checksum'),'size':f.get('size')} for f in record.get('files',[])]
+              }, sort_keys=True))
+              return True
+          for attempt in range(4):
+              try:
+                  old = get('https://zenodo.org/api/records/22647942')
+                  if verify(old): break
+                  print('Original record reachable; latest link:', old.get('links',{}).get('latest'))
+                  latest = old.get('links',{}).get('latest')
+                  if latest and latest.startswith('https://zenodo.org/api/'):
+                      if verify(get(latest)): break
+                  query = 'related.identifier:"' + repo + '/tree/v2.0.0"'
+                  result = get('https://zenodo.org/api/records/?' + urllib.parse.urlencode({'q':query,'all_versions':'true','size':10}))
+                  if any(verify(hit) for hit in result.get('hits',{}).get('hits',[])): break
+                  print('Published v2.0.0 not yet returned.')
+              except Exception as error:
+                  print('Public record lookup:', type(error).__name__, str(error))
+              if attempt < 3: time.sleep(20)
+          else:
+              raise SystemExit('No verified published v2.0.0 DOI found; do not insert a guessed DOI.')
+          PY

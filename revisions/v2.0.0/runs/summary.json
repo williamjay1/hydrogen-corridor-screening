@@ -1,0 +1,53 @@
+{
+  "country_count": 22,
+  "candidate_count": 9,
+  "edge_records": 356,
+  "backbone_records": 334,
+  "terminal_records": 22,
+  "unique_directed_backbone_pairs": 167,
+  "carrier_phase_records": 20,
+  "unique_carrier_projects": 18,
+  "scenarios": 12,
+  "subset_count": 511,
+  "four_portfolios": 126,
+  "mapping_cases": 6,
+  "main_selection": [
+    "LH2_Tk_BE",
+    "LH2_Tk_DE",
+    "LH2_Tk_FRSW",
+    "LH2_Tk_NL"
+  ],
+  "mapping_selection": [
+    "LH2_Tk_BE",
+    "LH2_Tk_DE",
+    "LH2_Tk_DEbp",
+    "LH2_Tk_NL"
+  ],
+  "baselines": [
+    {
+      "method": "exact_minimax",
+      "selection": "LH2_Tk_BE;LH2_Tk_DE;LH2_Tk_FRSW;LH2_Tk_NL",
+      "worst_unmet_pct": 14.473418510995506,
+      "sum_unmet_gwh": 92836.2261352552
+    },
+    {
+      "method": "central_optimum",
+      "selection": "LH2_Tk_BE;LH2_Tk_FRSW;LH2_Tk_NL;LH2_Tk_PLN",
+      "worst_unmet_pct": 24.71078225732929,
+      "sum_unmet_gwh": 100285.75670157744
+    },
+    {
+      "method": "capacity_rank",
+      "selection": "LH2_Tk_BE;LH2_Tk_DE;LH2_Tk_FRn;LH2_Tk_NL",
+      "worst_unmet_pct": 14.473418510995506,
+      "sum_unmet_gwh": 92836.2261352552
+    },
+    {
+      "method": "greedy",
+      "selection": "LH2_Tk_BE;LH2_Tk_DE;LH2_Tk_FRSW;LH2_Tk_NL",
+      "worst_unmet_pct": 14.473418510995506,
+      "sum_unmet_gwh": 92836.2261352552
+    }
+  ],
+  "elapsed_seconds": 23.11722707748413
+}

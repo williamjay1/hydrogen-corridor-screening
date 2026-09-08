@@ -1,0 +1,9 @@
+# Source and interpretation notes
+
+The 2024 input hashes and Excel row locators are in the numerical audit tables. Directed C2 edges are literal; no reverse edge is inferred. Blank C2 scenario entries are encoded as zero disclosed planning capacity, not evidence of a real zero operating asset. Terminal labels such as DEbp are source node labels, not verified named-port crosswalks.
+
+2026 carrier records are from ENTSOG TYNDP 2026 Draft project submissions, Annex A revision 4, H2L sheet: [official workbook](https://www.entsog.eu/sites/default/files/2026-05/INV0460-26%20TYNDP%202026%20Annex%20A%20List%20of%20Projects%20rev4.xlsx). Main results freeze 2024; cross-vintage experiments match numeric project suffix and carrier family, retain unmatched records, and keep the 2024 transmission layer. Disclosed hydrogen-equivalent GWh/day is not ammonia tonnes or measured throughput.
+
+The current named-port registry is separate from the nine anonymous model groups. Unknown firm conversion capacity is left missing. Hamburg's permit is conditional on FID and does not establish an operating cracker. Rotterdam's completed 32 km local line is not an entire cross-border import route. The Uniper annual report 2025, PDF pages 42 and 140, locates the 28 tonnes NH3/day demonstrator at Scholven, not Wilhelmshaven. Its web PDF was read but file download returned 403. The Amsterdam 2026 MoU update is search-excerpt-only and is not used in numerical results. Retrieval failures are retained in the source manifest.
+
+Original third-party material remains governed by its source terms. No original workbook, commercial data, authentication information or private account data is included. The release provides derived research tables with attribution, not a blanket license to the upstream sources.

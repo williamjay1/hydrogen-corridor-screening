@@ -1,0 +1,3 @@
+# Preserve archived research-file bytes so manifest checksums survive checkout.
+/revisions/v2.0.0/** -text
+/manuscript/current/** -text

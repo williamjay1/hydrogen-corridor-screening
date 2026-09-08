@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "Cite the published v2.0.0 archive DOI once assigned; v1 DOI does not reproduce v2 results."
+message: "Please cite this published version DOI when using the archived code or derived data."
 title: "Capacity and Connectivity Bounds for European Hydrogen Import Corridors: Reproducibility Code and Derived Data"
 type: software
 version: "2.0.0"
+doi: "10.5281/zenodo.22657220"
 date-released: 2026-09-08
 authors:
   - family-names: Zhang
